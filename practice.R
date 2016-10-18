@@ -36,6 +36,7 @@ dbDisconnect(conn)
 rm(conn) # Help clean up workspace by removing variables
 
 ##################
+
 # Practice with dataframes and data types; dataframe is a collection of vectors (list); vectors can only hold one type of data
 df <- data.frame(
   x1 = c(TRUE, FALSE, TRUE),
