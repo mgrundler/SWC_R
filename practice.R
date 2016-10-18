@@ -1,7 +1,9 @@
 # What: Software Carpentry Workshop
 # When: October 18th, 2016
 # Who: Maggie Grundler
+# Where: Hatcher Library, UM
 
+# Packages Necessary for this analysis:
 library(RSQLite)
 
 conn <- dbConnect(SQLite(), dbname='~/Desktop/survey.sqlite')
