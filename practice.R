@@ -170,7 +170,7 @@ rownames(medians) <- usp
     summarize(med_weight = median(weight)) %>%
     print(n=18)
     
-# Alternatively
+# Additional options for cleaning data
 
 surveys_complete <- surveys %>%
   filter(!is.na(weight),
