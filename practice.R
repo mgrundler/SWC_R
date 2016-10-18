@@ -6,7 +6,8 @@
 
 ######################################
 
-# Packages Necessary for this analysis:
+# Packages necessary for this analysis:
+
 library(RSQLite)
 
 conn <- dbConnect(SQLite(), dbname='~/Desktop/survey.sqlite')
