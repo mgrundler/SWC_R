@@ -30,6 +30,8 @@ surveys <- read.csv('~/Desktop/ecology.csv')
 class(surveys)
 sapply(surveys, class) # Call class for every column in surveys
 
+# Always disconnect as soon as possible to protect hard drive
+
 dbDisconnect(conn)
 rm(conn) # Help clean up workspace by removing variables
 
