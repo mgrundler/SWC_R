@@ -2,6 +2,7 @@
 # When: October 18th, 2016
 # Who: Maggie Grundler
 # Where: Hatcher Library, UM
+# Why: To improve computer programming skills
 
 ######################################
 
